@@ -1,5 +1,5 @@
-
-import psutil, datetime, http.server, json, logging
+import psutil, datetime, json, logging
+from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
 
 
 def get_cpu_info():
